@@ -90,7 +90,7 @@ The chat interface is the main feature of the application, allowing real-time co
 1. Clone the repository:
    ```bash
    git clone https://github.com/sohelmohammed0/Bubblechat.git
-   cd chat-app
+   cd Bubblechat
    ```
 
 2. Build and run the Docker containers using Compose:
