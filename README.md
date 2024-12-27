@@ -41,13 +41,13 @@ The application is built using two separate Dockerfiles to handle the frontend a
 ## Login and Signup Pages
 The login and signup pages allow users to securely access and register for the chat application.
 
-### Login Page
-![Login Page](images/login.png)
-*User login interface.*
-
 ### Signup Page
 ![Signup Page](images/signup.png)
 *User registration/signup interface.*
+
+### Login Page
+![Login Page](images/login.png)
+*User login interface.*
 
 ---
 
