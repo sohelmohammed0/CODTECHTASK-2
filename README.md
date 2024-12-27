@@ -53,7 +53,7 @@ This project is a real-time chat application built using **Node.js**, **JavaScri
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/sohelmohammed/Bubblechat.git
+   git clone https://github.com/sohelmohammed0/Bubblechat.git
    cd Bubblechat
    ```
 
