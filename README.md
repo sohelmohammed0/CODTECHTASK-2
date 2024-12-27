@@ -6,12 +6,6 @@
 **DOMAIN : DEVOPS** <br>
 **DURATION : DEC - JAN 2025**
 
-# Real-Time Chat Application
-
-# Real-Time Chat Application
-
-# Real-Time Chat Application
-
 ## Overview
 This project is a real-time chat application built using **Node.js**, **JavaScript**, **CSS**, and **HTML**. The application allows users to communicate in real time, supporting multiple participants in dynamic chat rooms. The app has been containerized using Docker to ensure consistent performance and ease of deployment across various environments.
 
