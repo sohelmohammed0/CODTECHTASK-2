@@ -5,6 +5,11 @@
 **ID : CT08EHX** <br>
 **DOMAIN : DEVOPS** <br>
 **DURATION : DEC - JAN 2025**
+
+# Real-Time Chat Application
+
+# Real-Time Chat Application
+
 # Real-Time Chat Application
 
 ## Overview
@@ -23,6 +28,42 @@ This project is a real-time chat application built using **Node.js**, **JavaScri
 
 ---
 
+## Building the Docker Images (Two Dockerfiles Approach)
+The application is built using two separate Dockerfiles to handle the frontend and backend services, orchestrated with Docker Compose.
+
+### Steps to Build and Run the Docker Containers:
+1. Navigate to the project directory.
+2. Use Docker Compose to build and run both services:
+   ```bash
+   docker-compose up --build
+   ```
+3. Ensure that both containers (frontend and backend) start successfully.
+4. Access the application at `http://localhost:3000`.
+
+![Docker Compose Up](images/composeup.png)
+
+---
+
+## Login and Signup Pages
+The login and signup pages allow users to securely access and register for the chat application.
+
+### Login Page
+![Login Page](images/login.png)
+*User login interface.*
+
+### Signup Page
+![Signup Page](images/signup.png)
+*User registration/signup interface.*
+
+---
+
+## Chat Interface
+The chat interface is the main feature of the application, allowing real-time communication between users in a clean and responsive layout.
+
+![Chat Interface](images/interface.png)
+
+---
+
 ## Advantages of a Containerized Application
 
 1. **Portability:**
@@ -32,7 +73,7 @@ This project is a real-time chat application built using **Node.js**, **JavaScri
    - Containers allow easy scaling of the application to handle increasing numbers of users.
 
 3. **Simplified Deployment:**
-   - Docker enables quick and hassle-free deployment using a predefined environment in the container.
+   - Docker Compose simplifies multi-container orchestration and deployment.
 
 4. **Resource Efficiency:**
    - Containers use system resources efficiently, leading to reduced overhead compared to virtual machines.
@@ -48,26 +89,22 @@ This project is a real-time chat application built using **Node.js**, **JavaScri
 ## Getting Started
 ### Prerequisites
 - Install [Docker](https://www.docker.com/)
+- Install [Docker Compose](https://docs.docker.com/compose/)
 - Basic understanding of Docker commands
 
 ### Installation
 1. Clone the repository:
    ```bash
    git clone https://github.com/sohelmohammed0/Bubblechat.git
-   cd Bubblechat
+   cd chat-app
    ```
 
-2. Build the Docker image:
+2. Build and run the Docker containers using Compose:
    ```bash
-   docker build -t chat-app .
+   docker-compose up --build
    ```
 
-3. Run the Docker container:
-   ```bash
-   docker run -p 3000:3000 chat-app
-   ```
-
-4. Open your browser and navigate to `http://localhost:3000` to start using the chat application.
+3. Open your browser and navigate to `http://localhost:3000` to start using the chat application.
 
 ---
 
@@ -84,6 +121,7 @@ This project is a real-time chat application built using **Node.js**, **JavaScri
 - **WebSocket:** Real-time communication
 - **JavaScript, CSS, HTML:** Frontend technologies
 - **Docker:** Containerization platform
+- **Docker Compose:** Multi-container orchestration
 
 ---
 
@@ -95,10 +133,9 @@ Contributions are welcome! To contribute:
 4. Push to the branch: `git push origin feature-name`
 5. Submit a pull request.
 
+
 ---
 
 ## Contact
 For any queries or support, please contact [sohel879879@gmail.com].
-
-
 
